@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Chrome exception",
+  "version": "1.0",
+  "description": "example",
+  "content_scripts": [
+     {
+       "matches": ["https://example.com/*"],
+       "js": ["app.js"]
+     
+     }
+     
+  ]
+}
